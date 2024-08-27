@@ -332,6 +332,15 @@ int main(int argc, char *argv[])
         return 1;
     }
 
+    // NetPPM format:
+    // P3
+    // 3 1
+    // 255
+    // 255 0 0
+    // 0 255 0
+    // 0 0 255
+    // ...
+
     // Ausgabe der RGB-Daten (hier als Beispiel auf der Konsole)
     for (y = 0; y < height; y++) {
         for (x = 0; x < width; x++) {
