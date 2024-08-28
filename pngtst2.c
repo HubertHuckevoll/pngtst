@@ -1,3 +1,4 @@
+// https://github.com/zenmumbler/pngread/blob/master/pngread.cpp
 // compile with wcl /3 /d2 /fp5 /mh program.c zlib.lib
 
 #include <stdio.h>
